@@ -492,7 +492,7 @@ class LoginScreen(Screen):
             nome = "João da Silva"
             cpf = "123.456.789-00"
             cargo = "Desenvolvedor"
-            email = "email@institucional.com"
+            email = "joaojds@outlook.com"
 
             self.manager.get_screen("dados_pessoais").set_employee_data(nome, cpf, cargo, email)
 
@@ -503,7 +503,7 @@ class LoginScreen(Screen):
             nome = "Patrícia Abravanel"
             cpf = "123.654.789-00"
             cargo = "Gerente"
-            email = "email@institucional.com"
+            email = "patriciaabr@outlook.com"
 
             self.manager.get_screen("dados_pessoais").set_employee_data(nome, cpf, cargo, email)
 
